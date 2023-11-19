@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Incognito Opener",
+    "version": "1.0",
+    "description": "Right-click to open links or the current page in an incognito window.",
+    "icons": {
+      "48": "icon.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": [
+      "tabs", "activeTab"
+    ],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Open in Incognito"
+    }
+  }
+  
